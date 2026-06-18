@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meekosam - తాజా తెలుగు వార్తలు</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box}
+        body {font-family:'Noto Sans Telugu', sans-serif; background:#fff; color:#222}
+        .container {max-width:1200px; margin:0 auto; padding:0 15px}
+        .logo-area {padding:20px 0; text-align:center; border-bottom:3px solid #C00000}
+        .logo-area h1 {font-size:48px; color:#C00000; font-weight:700}
+        .main-menu {background:#000}
+        .main-menu ul {list-style:none; display:flex; flex-wrap:wrap; justify-content:center}
+        .main-menu li a {display:block; color:#fff; padding:15px 20px; text-decoration:none}
+        .main-menu li a:hover {background:#C00000}
+        .breaking {background:#C00000; color:#fff; padding:10px 0; margin:20px 0}
+        .breaking .container {display:flex; align-items:center}
+        .breaking span {background:#000; padding:10px 15px; font-weight:700; margin-right:15px}
+        .news-grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:25px; margin:30px 0}
+        .news-card {border:1px solid #eee}
+        .news-card img {width:100%; height:200px; object-fit:cover}
+        .news-content {padding:15px}
+        .news-content .category {color:#C00000; font-size:13px; font-weight:700}
+        .news-content h3 {margin:10px 0; font-size:20px}
+        .news-content h3 a {color:#000; text-decoration:none}
+        footer {background:#222; color:#aaa; padding:40px 0; margin-top:50px; text-align:center}
+        @media (max-width:768px){.logo-area h1{font-size:36px}.main-menu li a{padding:10px}}
+    </style>
+</head>
+<body>
+    <div class="logo-area">
+        <div class="container">
+            <h1>మీకోసం</h1>
+            <p>వేగంగా... విశ్వసనీయంగా...</p>
+        </div>
+    </div>
+    <nav class="main-menu">
+        <div class="container">
+            <ul>
+                <li><a href="#">హోమ్</a></li>
+                <li><a href="#">ఆంధ్రప్రదేశ్</a></li>
+                <li><a href="#">తెలంగాణ</a></li>
+                <li><a href="#">జాతీయం</a></li>
+                <li><a href="#">క్రీడలు</a></li>
+                <li><a href="#">సినిమా</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="breaking">
+        <div class="container">
+            <span>బ్రేకింగ్ న్యూస్</span>
+            <marquee>విద్యా హక్కు చట్టం అమలులో ప్రభుత్వం విఫలం | ఏపీలో భారీ వర్షాలు</marquee>
+        </div>
+    </div>
+    <div class="container">
+        <div class="news-grid">
+            <div class="news-card">
+                <img src="https://via.placeholder.com/400x200/C00000/ffffff?text=Meekosam+News" alt="News">
+                <div class="news-content">
+                    <span class="category">ఆంధ్రప్రదేశ్</span>
+                    <h3><a href="#">విద్యా హక్కు చట్టం అమలులో ప్రభుత్వం విఫలం</a></h3>
+                    <p>సెప్టెంబర్ 18, 2026</p>
+                </div>
+            <div class="news-card">
+                <img src="https://via.placeholder.com/400x200/000000/ffffff?text=Latest+News" alt="News">
+                <div class="news-content">
+                    <span class="category">తెలంగాణ</span>
+                    <h3><a href="#">హైదరాబాద్‌లో కొత్త ఐటీ పార్క్ ప్రారంభం</a></h3>
+                    <p>సెప్టెంబర్ 18, 2026</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">© 2026 Meekosam. All Rights Reserved.</div>
+    </footer>
+</body>
+</html>
